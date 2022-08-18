@@ -6,5 +6,18 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    n=0
+    if s[0]=='*':
+        n+=1
+    if s[1]=='*':
+        n+=1
+    if s[2]=='*':
+        n+=1 
+    if s[3]=='*':
+        n+=1    
+    if s[4]=='*':
+        n+=1        
+        
+    return n
+print(main('*as*d'))
         
