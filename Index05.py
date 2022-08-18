@@ -6,4 +6,16 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    n=0
+    l="1234567890"
+    if s[0] in l:
+        n+=1
+    elif s[1] in l:
+        n+=1
+    elif s[2] in l:
+        n+=1
+    elif s[3] in l:
+        n+=1
+    elif s[4] in l:
+        n+=1
+    return n
