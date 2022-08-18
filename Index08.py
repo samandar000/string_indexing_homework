@@ -17,7 +17,10 @@ def main(s):
         n+=1    
     if s[4]=='*':
         n+=1        
+    elif n==0:
+        return False
+
         
     return n
-print(main('*as*d'))
+
         
